@@ -1,0 +1,15 @@
+:root {
+  --main-bg-color: #ecfbfd;
+}
+
+body {
+   background-color: var(--main-bg-color);
+}
+
+img {
+    background-color: var(--main-bg-color);
+}
+
+.card {
+    background-color: var(--main-bg-color);
+}
