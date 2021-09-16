@@ -1,0 +1,35 @@
+$primary:       #3898EC;
+
+$container-max-widths: (
+  sm: 540px,
+  md: 720px,
+  lg: 960px,
+  xl: 960px,
+  xxl: 960px
+);
+
+.hero-section .card-body {
+  font-family: Inconsolata, monospace;
+}
+
+.hero-section .btn, .contact-section .btn {
+    font-family: Oswald, sans-serif;
+    font-weight: 900;
+    font-size: 18px;
+}
+
+.contact-section h1 {
+    font-family: Oswald, sans-serif;
+    font-weight: bold;
+   
+}
+
+.contact-section label {
+    font-weight: bold;
+    font-family: Arial,sans-serif;
+    font-size: 14px;
+    line-height: 20px;
+    color: #333;
+}
+
+@import "../node_modules/bootstrap/scss/bootstrap";

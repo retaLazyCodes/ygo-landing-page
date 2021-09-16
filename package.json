@@ -1,0 +1,23 @@
+{
+  "name": "ygo_landing_page",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "purgecss --css sass/custom.css --content index.html --output build/reduced.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/retaLazyCodes/ygo-landing-page.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/retaLazyCodes/ygo-landing-page/issues"
+  },
+  "homepage": "https://github.com/retaLazyCodes/ygo-landing-page#readme",
+  "dependencies": {
+    "bootstrap": "^5.0.0-beta3"
+  }
+}
